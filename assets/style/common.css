@@ -1,0 +1,44 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Quicksand", sans-serif;
+}
+
+.show {
+  opacity: 1;
+}
+
+.hide {
+  opacity: 0;
+}
+
+.avatar img {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+a {
+  text-decoration: none;
+}
+
+.tick-blue {
+  --fa-primary-color: white;
+  --fa-secondary-color: #0b0be8;
+  margin-left: 3px;
+  clip-path: polygon(
+    50% 0%,
+    90% 20%,
+    100% 60%,
+    75% 100%,
+    25% 100%,
+    0% 60%,
+    10% 20%
+  );
+}
